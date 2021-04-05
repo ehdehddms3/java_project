@@ -1,0 +1,9 @@
+package com.ict3.class03;
+
+import java.util.Scanner;
+import java.util.Random;
+
+public class Ex05 {
+
+	// 야구게임(월요일까지)
+}

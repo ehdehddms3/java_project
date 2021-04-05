@@ -1,0 +1,13 @@
+package com.ict03.class04;
+
+public class Ex15 extends Ex14{
+	String name = "홍일점";
+	int id = 2410;
+	public Ex15(){
+		// super();
+		System.out.println("자식클래스 생성자 : " + this);
+		name = "홍두께";
+		id = 1004;
+		
+	}
+}
