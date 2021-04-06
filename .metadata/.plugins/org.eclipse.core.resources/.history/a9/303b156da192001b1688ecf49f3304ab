@@ -1,0 +1,43 @@
+package com.ict3.class03;
+
+import java.util.Random;
+
+public class Ex03 {
+	public static void main(String[] args) {
+		// 랜덤 : Math.random(),    Random 클래스
+		
+		// 1. Random 클래스
+		Random ran = new Random();
+		
+		// 각종 자료형의 데이터를 무작위로 추출
+		System.out.println("boolean형 : " + ran.nextBoolean());
+		System.out.println("int형 :" + ran.nextInt());
+		System.out.println("long형 : " + ran.nextLong());
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+}

@@ -1,0 +1,46 @@
+package com.ict3.class03;
+
+public class Ex01 {
+	public static void main(String[] args) {
+		// String 클래스
+		String str1 = "abc";
+		
+		char[] data = {'a','b','c'};
+		String str2 = new String(data);
+		
+		byte[] data2 = {97,98,99};
+		String str3 = new String(data2);
+		
+		String str4 = new String("abc");
+		System.out.println(str1);
+		System.out.println(str2);
+		System.out.println(str3);
+		System.out.println(str4);
+		System.out.println();
+		
+		System.out.println("------주요 메소드------");
+		String msg = "한국 ICT 인재 개발원 1강의장";
+		// 1. charAt(int index) : char;
+		// 위치값을 받아서 그위치에 존재하는 문자를 반환한다.
+		// 이때 위치값(index는 0부터이다)
+		char c1 = msg.charAt(7); // 띄어쓰기 포함 7번째 글자가 출력된다.
+		System.out.println(c1);
+		
+		// 문제) 다음 문자들 중에 소문자를 대문자로 변경하시오
+		msg = "대한 I Love You 123";
+		// 문자열의 길이를 구하자 : length() 메소드 : int형
+		System.out.println(msg.length());
+		for (int i = 0; i < msg.length; i++) {
+			char c2 = msg.charAt(i);
+			if(c2 >= 'a' && c2 <= 'z')
+			{
+				c2 = (char)(c2 - 32);
+			}
+		}
+		
+		
+		
+		
+		
+	}
+}

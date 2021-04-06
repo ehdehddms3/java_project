@@ -1,0 +1,18 @@
+package com.ict03.class02;
+
+public class Ex15 {
+	int s1 = 100;
+	
+	static int s2 = 200;
+	
+	// static 초기화
+	static {
+		s2 = 2000;
+	}
+	
+	public static void main(String[] args) {
+		// main()도 static이므로 전역변수가 instance이면 사용할 수 없다.
+		// system.out.println(s1);
+		System.out.println(s2);
+	}
+}

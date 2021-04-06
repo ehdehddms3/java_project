@@ -1,0 +1,34 @@
+package com.ict3.class03;
+
+
+import java.util.Random;
+public class Ex04 {
+
+	public static void main(String[] args) {
+		// 컴퓨터와 가위바위보 게임하기
+		// 컴퓨터는 가위(0), 바위(1), 보(2)를 갖는다
+		// 사용자가 가위,바위,보를 선택해서 컴퓨터와 게임을 한다
+		
+		Scanner scan = new Scanner();
+		Random ran = new Random();
+		System.out.print("무엇을 낼까요?");
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	}
+
+}

@@ -1,6 +1,9 @@
 package com.ict05.collection;
 
+import java.util.Iterator;
 import java.util.Stack;
+
+
 
 public class Ex05 {
 	/* List 인터페이스를 구현한 클래스들 : Stack, ArrayList, Vector;
@@ -38,12 +41,50 @@ public class Ex05 {
 	System.out.println(stack.peek());
 	System.out.println(stack);
 	
+	System.out.println(stack.pop());
+	System.out.println(stack);
 	
+	System.out.println("===============================");
+	// contains, indexOf, search, get, elementAt, firstElement, lastElement
+	if (stack.contains("둘리")) {
+		//System.out.println("존재한다.");
+		System.out.println(stack.indexOf("둘리")+"번째 위치");   // 왼쪽에서부터 찾음
+		System.out.println(stack.search("둘리")+"번째 위치");    // 오른쪽에서부터 찾음
+		// 해당위치의 객체 꺼내기
+		System.out.println(stack.get(1));
+		System.out.println(stack.get(stack.indexOf("둘리")));
+		System.out.println(stack.elementAt(stack.indexOf("둘리")));
+		
+	} else {
+		System.out.println("존재하지않음");
+	}
 	
+	// size, set(치환) setElementAt(치환)
+	System.out.println(stack.size()+"요소가 존재합니다.");
 	
+	stack.set(3, "마이콜");
+	// stack.setElementAt("마이콜", 3);
+	System.out.println(stack);
 	
+	System.out.println("===============================");
+	// 하나씩 꺼내기 (개선된 for, iterator (데이터가 그대로 존재) , pop (데이터가 삭제됨)
+	// 개선된 for문
+	for (String k : stack) {
+		System.out.println(k);
+	}
+	System.out.println(stack.size()+"요소가 존재합니다.");
 	
+	Iterator<String> it = stack.iterator();                            // iterator는 왼쪽에서부터 시작
+	while(it.hasNext()) {
+		String msg = (String) it.next();
+		System.out.println(msg);
+	}
+	System.out.println(stack.size()+"요소가 존재합니다.");
 	
+	while(! stack.isEmpty()) {                                        // pop은 오른쪽에서부터 시작
+		String k = stack.pop();
+		System.out.println(k + "삭제됨, 크기는 " + stack.size());
+	}
 	
 	
 	

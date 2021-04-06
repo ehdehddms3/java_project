@@ -1,0 +1,58 @@
+package com.ict3.class03;
+
+
+public class Ex05 {
+	public static void main(String[] args) {
+		// StringBuffer, StringBuilder
+		
+		String msg = "hello";
+		System.out.println(msg);
+		
+		msg = msg + "java";
+		System.out.println(msg);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}	
+}
