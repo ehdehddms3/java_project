@@ -32,6 +32,12 @@ public class Ex05 {
 	stack.add(1, "둘리");   // 중복 사용 가능 
 	
 	System.out.println(stack);
+	System.out.println("===============================");
+	
+	// 마지막 개체보기 pop(삭제), peek(삭제X = for문 사용하면 무한 루프)
+	System.out.println(stack.peek());
+	System.out.println(stack);
+	
 	
 	
 	
