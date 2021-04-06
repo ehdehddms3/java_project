@@ -10,9 +10,9 @@ public class Ex06 {
 	   ArrayList : 지원하지 않음,      Vector : 지원함
 	   
 	   Set 구조는 순서가 없다.          중복 안됨
-	   list 구조는 순서가 존재한다.     중복 가능
+	   list 구조는 순서가 존재한다.     중복 가능함
 	   
-	   */
+	   */ 
 		
 
 	}
